@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FII PRIORITY Miami 2026 - Dossier CEO</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 40px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .header .subtitle {
+            font-size: 1.2em;
+            color: #888;
+            margin-bottom: 20px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(102, 126, 234, 0.2);
+            border: 1px solid #667eea;
+            border-radius: 50px;
+            font-size: 0.9em;
+            color: #667eea;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        .card h2 {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #667eea;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .info-item {
+            padding: 15px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 10px;
+        }
+        .info-item label {
+            display: block;
+            font-size: 0.8em;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        .info-item value {
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 10px;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        .speakers-list {
+            display: grid;
+            gap: 15px;
+        }
+        .speaker {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 10px;
+        }
+        .speaker-avatar {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .speaker-info h4 {
+            font-size: 1em;
+            margin-bottom: 3px;
+        }
+        .speaker-info p {
+            font-size: 0.85em;
+            color: #888;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.8em; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🇺🇸 FII PRIORITY Miami 2026</h1>
+            <p class="subtitle">Dossier de Inteligencia para CEO</p>
+            <span class="badge">EVENTO DE ÉLITE GLOBAL</span>
+        </div>
+
+        <div class="card">
+            <h2>📋 Información del Evento</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <label>Fecha</label>
+                    <value>25-27 Marzo 2026</value>
+                </div>
+                <div class="info-item">
+                    <label>Ubicación</label>
+                    <value>Faena Hotel, Miami Beach</value>
+                </div>
+                <div class="info-item">
+                    <label>Tema</label>
+                    <value>"Capital in Motion"</value>
+                </div>
+                <div class="info-item">
+                    <label>Organizador</label>
+                    <value>FII Institute (PIF Saudi)</value>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📄 Documentos</h2>
+            <p style="margin-bottom: 20px; color: #aaa;">Accede al dossier completo con toda la inteligencia del evento:</p>
+            <a href="DOSSIER_FII_PRIORITY_MIAMI_2026.pdf" class="cta-button" download>
+                📥 Descargar PDF Completo
+            </a>
+            <a href="DOSSIER_FII_PRIORITY_MIAMI_2026.md" class="cta-button" style="margin-left: 10px; background: rgba(255,255,255,0.1);">
+                📝 Ver Markdown
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>🎤 Speakers Clave Confirmados</h2>
+            <div class="speakers-list">
+                <div class="speaker">
+                    <div class="speaker-avatar">R</div>
+                    <div class="speaker-info">
+                        <h4>H.R.H. Princess Reema Bandar Al Saud</h4>
+                        <p>Embajadora de Arabia Saudita en EE.UU.</p>
+                    </div>
+                </div>
+                <div class="speaker">
+                    <div class="speaker-avatar">Y</div>
+                    <div class="speaker-info">
+                        <h4>H.E. Yasir O. Al-Rumayyan</h4>
+                        <p>Gobernador PIF; Chairman Aramco & FII</p>
+                    </div>
+                </div>
+                <div class="speaker">
+                    <div class="speaker-avatar">S</div>
+                    <div class="speaker-info">
+                        <h4>Steven Charles Witkoff</h4>
+                        <p>Enviado Especial de EE.UU. al Medio Oriente</p>
+                    </div>
+                </div>
+                <div class="speaker">
+                    <div class="speaker-avatar">D</div>
+                    <div class="speaker-info">
+                        <h4>Dina Powell McCormick</h4>
+                        <p>President & Vice Chairman, Meta</p>
+                    </div>
+                </div>
+                <div class="speaker">
+                    <div class="speaker-avatar">F</div>
+                    <div class="speaker-info">
+                        <h4>Dr. Fei-Fei Li</h4>
+                        <p>Stanford / World Labs (AI)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>👔 Código de Vestimenta</h2>
+            <div class="highlight-box">
+                <strong>Business Formal / Business Elegant</strong><br><br>
+                Trajes oscuros de alta calidad • Corbatas conservadoras • Zapatos pulidos<br>
+                Nivel de formalidad: ALTO — Evento de élite global
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🗣️ Talking Points Recomendados</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li style="padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">💬 "¿Cómo está moviendo su organización capital en este entorno?"</li>
+                <li style="padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">💬 "¿Cree que la infraestructura AI puede mantener el ritmo de la demanda?"</li>
+                <li style="padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">💬 "Miami como gateway a Latam — ¿ve oportunidades allí?"</li>
+                <li style="padding: 10px 0;">💬 "La transformación de Arabia Saudita es impresionante"</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🎯 Objetivos Estratégicos</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <label>Primario 1</label>
+                    <value>Contacto con PIF</value>
+                </div>
+                <div class="info-item">
+                    <label>Primario 2</label>
+                    <value>General Atlantic / Co-inversión</value>
+                </div>
+                <div class="info-item">
+                    <label>Primario 3</label>
+                    <value>Posicionar como gateway a Latam</value>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Dossier preparado por Vectrum Claw • 6 de marzo 2026</p>
+            <p style="margin-top: 10px; font-size: 0.8em;">FII PRIORITY Miami 2026 • 25-27 de marzo</p>
+        </div>
+    </div>
+</body>
+</html>
